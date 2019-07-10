@@ -32,18 +32,18 @@
     <div class="btnContainer">
         <button type="button" class="btn btn-default btn-lg btn-primary startBtn">START</button>
         <br>
-        <div class ="questions">
-       
-        <h4>what your favority movie?</h4>
-        <select  id="q0">
-            <option value=0>Brave heart</option>
-            <option value=1>RockyI</option>
-            <option value=2>Titanic</option>
-            <option value=3>Coming to america</option>
-        </select>
-        
-        <h4> Which of these is not a name of an NBA player</h4>
-        <select  id="q1">
+        <div class="questions">
+
+            <h4>what your favority movie?</h4>
+            <select id="q0">
+                <option value=0>Brave heart</option>
+                <option value=1>RockyI</option>
+                <option value=2>Titanic</option>
+                <option value=3>Coming to america</option>
+            </select>
+
+            <h4> Which of these is not a name of an NBA player</h4>
+            <select id="q1">
                 <option value=0>Jordan</option>
                 <option value=1>Obama</option>
                 <option value=2>Lebron</option>
@@ -51,12 +51,12 @@
             </select>
 
             <h4>which NBA team won 2019 title?</h4>
-            <select  id="q2">
-                    <option value=0>Lakers</option>
-                    <option value=1>Celtics</option>
-                    <option value=2>Raptors</option>
-                    <option value=3>Thunder</option>
-                </select>
+            <select id="q2">
+                <option value=0>Lakers</option>
+                <option value=1>Celtics</option>
+                <option value=2>Raptors</option>
+                <option value=3>Thunder</option>
+            </select>
             <br>
             <button class="submit">submit</button>
         </div>
@@ -66,113 +66,16 @@
             <span class="incorrect"></span>
         </div>
 
-                <script src="http://code.jquery.com/jquery-3.4.1.min.js"
-                    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-                <script src="Assets/javascript/app.js"></script>
-
-
-
-
-
-
+        <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="Assets/javascript/app.js"></script>
 
 </body>
 
-</html>
-
-
-<!-- <body>
-    <h1>Totally Trivial Trivia</h1>
-    <br>
-    <p id="time"> Time Remaining: <span id="time-remaining">30</span></p>
-    <div class="btnContainer">
-        <button type="button" class="btn btn-default btn-lg btn-primary startBtn">START</button>
-        <br>
-        <form action="">
-        <h4>what your favority movie?</h4>
-        <div class="custom-control custom-radio custom-control-inline">
-            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" data-value=0>
-            <label class="custom-control-label" for="customRadioInline1">Brave heart</label>
-        </div>
-        <div class="custom-control custom-radio custom-control-inline">
-            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" data-value=1>
-            <label class="custom-control-label" for="customRadioInline2">RockyI</label>
-        </div>
-
-        <div class="custom-control custom-radio custom-control-inline">
-            <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input" data-value=2>
-            <label class="custom-control-label" for="customRadioInline3">Titanic</label>
-        </div>
-        <div class="custom-control custom-radio custom-control-inline">
-            <input type="radio" id="customRadioInline4" name="customRadioInline1" class="custom-control-input" data-value=3>
-            <label class="custom-control-label" for="customRadioInline4">Coming to america</label>
-        </div>
-    </form>
-    <form action="">
-        <h4> Which of these is not a name of an NBA player</h4>
-        <div class="custom-control custom-radio custom-control-inline">
-            <input type="radio" id="customRadioInline5" name="customRadioInline5" class="custom-control-input" data-value=0>
-            <label class="custom-control-label" for="customRadioInline5">Jordan</label>
-        </div>
-        <div class="custom-control custom-radio custom-control-inline">
-            <input type="radio" id="customRadioInline6" name="customRadioInline5" class="custom-control-input" data-value=1>
-            <label class="custom-control-label" for="customRadioInline6">Obama</label>
-        </div>
-
-        <div class="custom-control custom-radio custom-control-inline">
-            <input type="radio" id="customRadioInline7" name="customRadioInline5" class="custom-control-input" data-value=2>
-            <label class="custom-control-label" for="customRadioInline7">Lebron</label>
-        </div>
-        <div class="custom-control custom-radio custom-control-inline">
-            <input type="radio" id="customRadioInline8" name="customRadioInline5" class="custom-control-input" data-value=3>
-            <label class="custom-control-label" for="customRadioInline8">Kobe</label>
-            </div>
-            </form>
-            <form action="">
-            <h4>which NBA team won 2019 title?</h4>
-            <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" id="customRadioInline9" name="customRadioInline9" class="custom-control-input" data-value=0>
-                <label class="custom-control-label" for="customRadioInline9">Lakers</label>
-            </div>
-            <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" id="customRadioInline10" name="customRadioInline9" class="custom-control-input" data-value=1>
-                <label class="custom-control-label" for="customRadioInline10">Celtics</label>
-            </div>
-            <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" id="customRadioInline11" name="customRadioInline9" class="custom-control-input" data-value=2>
-                <label class="custom-control-label" for="customRadioInline11">Raptors</label>
-            </div>
-            <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" id="customRadioInline12" name="customRadioInline9" class="custom-control-input" data-value=3>
-                <label class="custom-control-label" for="customRadioInline12">Thunder</label>
-            </div>
-            </form>
+</html> 
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-                <script src="http://code.jquery.com/jquery-3.4.1.min.js"
-                    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-                <script src="Assets/javascript/app.js"></script>
-
-
-
-
-
-
-
-</body>
-
-</html> -->
